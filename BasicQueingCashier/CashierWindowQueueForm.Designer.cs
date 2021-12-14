@@ -43,6 +43,7 @@ namespace BasicQueingCashier
             this.btnRefresh.TabIndex = 0;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnNext
             // 
@@ -53,15 +54,18 @@ namespace BasicQueingCashier
             this.btnNext.TabIndex = 1;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // listCashierQueue
             // 
+            this.listCashierQueue.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listCashierQueue.HideSelection = false;
             this.listCashierQueue.Location = new System.Drawing.Point(118, 12);
             this.listCashierQueue.Name = "listCashierQueue";
             this.listCashierQueue.Size = new System.Drawing.Size(241, 386);
             this.listCashierQueue.TabIndex = 2;
             this.listCashierQueue.UseCompatibleStateImageBehavior = false;
+            this.listCashierQueue.View = System.Windows.Forms.View.List;
             // 
             // CashierWindowQueueForm
             // 

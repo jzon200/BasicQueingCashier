@@ -44,6 +44,7 @@ namespace BasicQueingCashier
             this.btnCashier.TabIndex = 0;
             this.btnCashier.Text = "Cashier";
             this.btnCashier.UseVisualStyleBackColor = true;
+            this.btnCashier.Click += new System.EventHandler(this.btnCashier_Click);
             // 
             // label1
             // 
@@ -61,9 +62,8 @@ namespace BasicQueingCashier
             this.lblQueue.Font = new System.Drawing.Font("Calibri", 56.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQueue.Location = new System.Drawing.Point(203, 70);
             this.lblQueue.Name = "lblQueue";
-            this.lblQueue.Size = new System.Drawing.Size(325, 91);
+            this.lblQueue.Size = new System.Drawing.Size(0, 91);
             this.lblQueue.TabIndex = 2;
-            this.lblQueue.Text = "P - 10007";
             // 
             // label2
             // 

@@ -52,6 +52,7 @@
     <Compile Include="CashierWindowQueueForm.Designer.cs">
       <DependentUpon>CashierWindowQueueForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CashierClass.cs" />
     <Compile Include="QueingForm.cs">
       <SubType>Form</SubType>
     </Compile>
