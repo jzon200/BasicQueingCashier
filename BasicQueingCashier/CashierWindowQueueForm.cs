@@ -35,11 +35,7 @@ namespace BasicQueingCashier
 
         private void RemoveNumberQueue(Queue<string> cashierQueue)
         {
-            if (cashierQueue.Count > 0)
-            {
-                cashierQueue.Dequeue();
-                DisplayCashierQueue(CashierClass.CashierQueue);
-            }
+            if (cashierQueue.Count > 0) cashierQueue.Dequeue();
         }
         private void RefreshAutomatically()
         {
